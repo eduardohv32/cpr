@@ -24,7 +24,7 @@ export default function Navbar() {
           <div className="flex">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <img 
-                src="/Lincoln_CPR_Logo.jpg" 
+                src="/Lincoln_CPR_Logo.png" 
                 alt="Lincoln CPR Logo" 
                 className="h-12"
               />
