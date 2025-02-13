@@ -1,4 +1,4 @@
-import { Heart, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -23,10 +23,11 @@ export default function Navbar() {
         <div className="flex justify-between h-20">
           <div className="flex">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <Heart className={`h-8 w-8 ${isScrolled ? 'text-red-600' : 'text-red-500'}`} />
-              <span className={`ml-2 text-xl font-bold ${
-                isScrolled ? 'text-gray-900' : 'text-white'
-              }`}>LifeSaver CPR</span>
+              <img 
+                src="/lincoln-cpr-logo.jpg" 
+                alt="Lincoln CPR Logo" 
+                className="h-12"
+              />
             </Link>
           </div>
           

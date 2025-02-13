@@ -30,8 +30,8 @@ export default function Instructors() {
             <div className="md:flex-shrink-0">
               <img
                 className="h-96 w-full object-cover md:w-96"
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                alt="Dr. Sarah Johnson"
+                src="/instructor.jpg"
+                alt="Satwinder Grewal"
               />
             </div>
             <div className="p-8">
