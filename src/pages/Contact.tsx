@@ -80,7 +80,7 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center">
                     <Mail className="h-6 w-6 text-red-200" />
-                    <span className="ml-4 text-red-100">info@lifesavercpr.com</span>
+                    <span className="ml-4 text-red-100">info@lincolncprtraining.com</span>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="h-6 w-6 text-red-200" />

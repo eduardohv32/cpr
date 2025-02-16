@@ -49,9 +49,9 @@ Her teaching approach is both engaging and inspiring, making learning an enjoyab
                     <Phone className="h-5 w-5 mr-2" />
                     (916) 295-9649
                   </a>
-                  <a href="mailto:sarah@lifesavercpr.com" className="flex items-center text-gray-600 hover:text-red-600">
+                  <a href="mailto:satwinder@lincolncprtraining.com" className="flex items-center text-gray-600 hover:text-red-600">
                     <Mail className="h-5 w-5 mr-2" />
-                    satwinder@lifesavercpr.com
+                    satwinder@lincolncprtraining.com
                   </a>
                 </div>
               </div>

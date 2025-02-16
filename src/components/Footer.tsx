@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="flex items-center mb-6">
               <img 
                 src="/Lincoln_CPR_white.png" 
-                alt="LifeSaver CPR Logo" 
+                alt="Lincoln CPR Logo" 
                 className="h-8 w-auto"
               />
             </div>
@@ -90,7 +90,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-gray-800">
           <p className="text-center text-gray-400">
-            © {new Date().getFullYear()} LifeSaver CPR. All rights reserved.
+            © {new Date().getFullYear()} Lincoln CPR Training. All rights reserved.
           </p>
         </div>
       </div>

@@ -6,7 +6,7 @@ export default function Services() {
   const courses = [
     {
       title: "Basic CPR Course",
-      price: "$75",
+      price: "$65",
       duration: "4 hours",
       features: [
         "Learn basic life support techniques",
@@ -14,18 +14,6 @@ export default function Services() {
         "AED training included",
         "2-year certification",
         "Small class sizes"
-      ]
-    },
-    {
-      title: "Professional CPR Course",
-      price: "$125",
-      duration: "8 hours",
-      features: [
-        "Advanced life support techniques",
-        "Pediatric CPR training",
-        "Emergency response protocols",
-        "Healthcare provider certification",
-        "Unlimited practice sessions"
       ]
     },
     {
