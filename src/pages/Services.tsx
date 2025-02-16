@@ -68,7 +68,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="mt-16 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
+        <div className="mt-16 max-w-4xl mx-auto grid grid-cols-1 gap-8 lg:grid-cols-2">
           {courses.map((course) => (
             <div key={course.title} className="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
               <div className="flex-1">

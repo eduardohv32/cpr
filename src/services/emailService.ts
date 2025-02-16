@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const BREVO_API_KEY = import.meta.env.VITE_BREVO_API_KEY;
-const RECIPIENT_EMAIL = 'eduardohv32@gmail.com';
+const RECIPIENT_EMAIL = 'sgrewal@1ar.com';
 
 interface EmailData {
   name: string;
