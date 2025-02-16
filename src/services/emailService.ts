@@ -34,7 +34,7 @@ export const useEmailService = () => {
         body: JSON.stringify({
           sender: {
             name: 'CPR Training Website',
-            email: 'noreply@lifesavercpr.com'
+            email: 'website@lincolncprtraining.com'
           },
           to: [{
             email: RECIPIENT_EMAIL,

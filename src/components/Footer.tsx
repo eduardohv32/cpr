@@ -1,4 +1,4 @@
-import { Heart, Phone, Mail } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -9,8 +9,11 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-6">
-              <Heart className="h-8 w-8 text-red-600" />
-              <span className="ml-2 text-xl font-bold text-white">LifeSaver CPR</span>
+              <img 
+                src="/Lincoln_CPR_white.png" 
+                alt="LifeSaver CPR Logo" 
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-gray-400 text-base mb-6">
               Empowering individuals with the knowledge and skills to save lives through professional CPR training.
@@ -22,7 +25,7 @@ export default function Footer() {
               </p>
               <p className="text-gray-400 flex items-center">
                 <Mail className="h-5 w-5 mr-2" />
-                info@lifesavercpr.com
+                info@lincolncprtraining.com
               </p>
             </div>
           </div>
